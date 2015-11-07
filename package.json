@@ -1,0 +1,44 @@
+{
+  "name": "react-football-league-table",
+  "version": "1.0.0",
+  "description": "React premier league football table. Built with Gulp, Webpack and Mocha Chai",
+  "private": true,
+  "main": "src/server/index.js",
+  "engines": {
+    "node": "4.2.1"
+  },
+  "scripts": {
+    "start": "node_modules/gulp/bin/gulp.js && ./bin/serve",
+    "test": "node_modules/mocha/bin/_mocha --compilers js:babel-core/register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:agreco/react-sandbox.git"
+  },
+  "dependencies": {
+    "babel-core": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "chai": "*",
+    "del": "*",
+    "express": "*",
+    "gulp": "*",
+    "gulp-mocha": "*",
+    "gulp-open": "*",
+    "gulp-react": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-webpack": "*",
+    "jquery": "*",
+    "jsdom": "*",
+    "jsx-loader": "*",
+    "mocha": "*",
+    "nock": "*",
+    "react": "*",
+    "react-addons-test-utils": "*",
+    "react-dom": "*",
+    "socket.io": "*",
+    "webpack": "*",
+    "xmlhttprequest": "*"
+  }
+}
